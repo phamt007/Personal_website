@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0;
+  color: #080808;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+}
+
+header {
+  background-color: #080808;
+  color: #fefefe;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #fefefe;
+  transition: color 0.2s;
+  padding: 15px;
+}
+
+a:hover {
+  background-color: #565656;
+}
+
+section {
+  height: 500px; 
+  scroll-margin-top: 50px;
+}
+
+#about {
+  padding: 20px;
+  background-color: #52a3c9a9; 
+}
+#about .img {
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  margin: 0 auto;
+}
+  
+#about  p{
+  text-align: left;
+  margin: 20px auto;
+  width: 500px;
+  font-size: 1.5em;
+}
+
+#previous_work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#previous_work h1 {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+#previous_work .skills_container,
+#previous_work .course_container {
+  display: flex;
+  justify-content: center;
+}
+
+#previous_work .skills_container {
+  margin-left: 50px;
+}
+
+#previous_work .hard_skill,
+#previous_work .soft_skill {
+  margin: 50px;
+  margin-top: 0px;
+}
+
+#previous_work ul {
+  list-style-type: disc;
+  padding-left: 0px;
+  flex-direction: column;
+  max-width: 200px;
+  margin-top: 50px;
+}
+
+#previous_work li {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+#projects {
+  text-align: center;
+  height: 400px;
+  background-color: #52a3c9a9;
+}
+
+#projects h1 {
+  padding: 10px;
+  margin-top: 0;
+}
+
+#projects a {
+  text-size-adjust: 1px;
+  background-color: #080808;
+  color: #f1f1f1;
+  transition: color 0.2s;
+  padding: 2px;
+}
+
+#projects a:hover {
+  background-color: #565656;
+}
+
+#projects .box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+#projects .description {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+#projects .date {
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#contact {
+  background-color: #f1f1f1;
+}
+
+#contact h1 {
+  padding: 15px;
+  margin-top: 0;
+}
+
+#contact form {
+  border: 1px solid black;
+  background-color: #fefefe;
+  border-radius: 10px;
+  width: 390px;
+  margin: auto;
+}
+
+#contact .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: 17%;
+}
+
+#contact .input-field label {
+  font-weight: bold;
+  text-align: left;
+}
+
+#contact .input-field input {
+  width: 80%;
+  height: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contact .input-field input[type="message"] {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#contact button {
+  margin: 5% auto;
+  margin-left: 1px;
+  margin-bottom: 30px;
+  width: 45%;
+  text-decoration: none;
+  text-size-adjust: 1px;
+  background-color: #080808;
+  color: #f1f1f1;
+  transition: color 0.2s;
+  padding: 5px;
+}
+
+#contact button:hover {
+  background-color: #565656;
+  color: white;
+}
+
+

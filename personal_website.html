@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01 - Navbar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#previous_work">Previous Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h1>About Me</h1>
+      <img
+        class="img"
+        src="../Tim.png"
+        alt="This is a self portrait of Tim Pham"
+      />
+      <h2>Tim Pham</h2>
+      <p>
+        a student that is currently enrolled in Portland State University, and pursuing a bachelor in computer science. 
+        During his studies, he accomplished multiple projects that utilized topics in programming, machine learning and artificial intelligence. 
+        Additionally the understanding of computer systems and managing the data within a database. 
+        After achieving a bachelor, he plans to pursue a master either in machine learning or artificial intelligence
+        or go into internships or a software job to explore more possibilities within his major.
+      </p>
+    </section>
+
+    <section id="previous_work">
+      <h1>Previous Work</h1>
+      <div class="skills_container">
+        <div class="hard_skill">
+          <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>React.js</li>
+          </ul>
+          
+        </div>
+        <h2>Skills</h2>
+        <div class="hard_skill">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PostgreSQL</li>            
+          </ul>
+          
+        </div>
+        <div class="soft_skill">
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>Structural Understanding of Github</li>
+            <li>Proficient in Microsoft Applications</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="course_container">
+        <div class="course">
+          <ul>
+            <li>CS300 Elements of Software Engineering</li>
+            <li>CS311 Computational Structures</li>
+            <li>CS333 Intro to Operating Systems</li>
+            <li>CS341 Intro to Computer Hardware</li>
+          </ul>
+        </div>
+        <h2>Courses</h2>
+        <div class="course">
+          <ul>
+            <li>CS441 Artifical Intelligence</li>
+            <li>CS445 Machine Learning</li>
+            <li>CS447 Computer Graphics</li>
+            <li>CS457 Functional Programming</li>
+            <li>CS469/CS470 Software Engineering Capstone</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="box">
+        <div class="description">
+          <h2>List Application</h2>
+          <p>
+            A List applications that allows the user to make a list of items or steps that they would need to record for themselves. The purpose of this implmentation is to understand the python language, <br>
+            soon to launch it into an application for downloads and use outside of compilers/terminals
+          </p>
+          <a href="https://github.com/phamt007/ListProjectPython">Github Link</a>
+        </div>
+        <div class="date">
+          <p>December 2023 - December 2023</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="description">
+          <h2>Arcade Duck Game</h2>
+          <p>
+            An arcade style duck game that shoots ducks for points. The purpose of this implementation is an introduction to game design <br>
+            as well as the understanding of gamemaker engine for game development.
+          </p>
+          <a href="https://github.com/phamt007/duck">Github Link</a>
+        </div>
+        <div class="date">
+          <p>September 2018 - Novemeber 2018</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <form>
+        <h1>Contact Me</h1>
+        <div class="input-field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="input-field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="input-field">
+          <label for="phone">Phone:</label>
+          <input type="phone" id="phone" name="phone" />
+        </div>
+        <div class="input-field">
+          <label for="message">Message:</label>
+          <input type="message" id="message" name="message" />
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
