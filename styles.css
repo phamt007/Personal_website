@@ -135,7 +135,6 @@ section {
 }
 
 #projects a {
-  text-size-adjust: 1px;
   background-color: #080808;
   color: #f1f1f1;
   transition: color 0.2s;
@@ -190,7 +189,6 @@ section {
 #contact .input-field {
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   margin-bottom: 15px;
   margin-left: 17%;
@@ -208,7 +206,7 @@ section {
   box-sizing: border-box;
 }
 
-#contact .input-field textarea[type="message"] {
+#contact .input-field textarea[id="message"] {
   width: 80%;
   height: 100px;
   padding: 10px;
@@ -222,7 +220,6 @@ section {
   margin-bottom: 30px;
   width: 45%;
   text-decoration: none;
-  text-size-adjust: 1px;
   background-color: #080808;
   color: #f1f1f1;
   transition: color 0.2s;

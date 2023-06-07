@@ -133,11 +133,11 @@
         </div>
         <div class="input-field">
           <label for="phone">Phone:</label>
-          <input type="phone" id="phone" name="phone" />
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
         </div>
         <div class="input-field">
           <label for="message">Message:</label>
-          <textarea type="message" id="phone" name="phone"></textarea>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
         </div>
         <button id="submit">Submit</button>
       </form>
