@@ -208,7 +208,7 @@ section {
   box-sizing: border-box;
 }
 
-#contact .input-field input[type="message"] {
+#contact .input-field textarea[type="message"] {
   width: 80%;
   height: 100px;
   padding: 10px;
